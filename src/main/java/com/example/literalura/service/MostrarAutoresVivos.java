@@ -22,7 +22,6 @@ public class MostrarAutoresVivos {
         List<Autor> autoresVivos = autorRepository.buscarAutoresVivos(anio);
         if (autoresVivos.isEmpty()){
             System.out.println("Ningun autor estaba vivo en esta epoca");
-            return;
         } else {
             System.out.println("Autores vivos en " + anio);
             autoresVivos.stream()
