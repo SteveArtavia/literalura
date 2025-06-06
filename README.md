@@ -65,9 +65,13 @@ Menú de consola para interactuar con el usuario con las siguientes opciones:
 
 ## Integraciones y procesos
 - **Consumo de API externa (Gutendex):** La aplicación realiza peticiones HTTP a la API pública Gutendex para obtener información sobre libros y autores.
+  
 - **Mapeo de datos con DTOs:** Los datos recibidos en formato JSON se convierten en objetos Java (DTOs) que representan la estructura necesaria para ser procesados dentro del sistema.
+  
 - **Procesamiento y persistencia con JPA (Hibernate):** Se utiliza Spring Data JPA para mapear los objetos Java a tablas en la base de datos PostgreSQL. Hibernate se encarga de generar y ejecutar automáticamente las consultas SQL.
+  
 - **Almacenamiento en PostgreSQL:** Una vez que los datos se procesan, se guardan en una base de datos local PostgreSQL utilizando Spring Data JPA (Hibernate), que se encarga de gestionar las entidades y generar las consultas SQL automáticamente.
+  
 - **Lógica de negocio:** La interacción del usuario con la app se maneja a través de clases `@Service`, que se encargan de procesar las solicitudes, consultar la base de datos, y devolver los resultados.
 
 ## Tecnologías usadas
