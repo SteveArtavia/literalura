@@ -3,7 +3,7 @@ Literalura es una aplicacion de consola desarrollada con Java Spring Boot. Consi
 
 ## Objetivo
 
-Esta aplicacion permite al usuario listar y buscar libros en una pequeña base de datos postgresql
+Permitir al usuario listar, buscar y consultar libros desde una base de datos local, a partir de información obtenida de forma dinámica mediante una API pública.
 
 ## Como ejecutar la aplicacion
 
@@ -55,8 +55,8 @@ mvn spring-boot:run
 Esto iniciará la aplicación, conectará con tu base de datos y mostrará el menú interactivo en consola.
 
 ## Funcionalidades
-Menu de consola para interactuar con el usuario con las siguientes opciones:
-  - Buscar libro por titulo
+Menú de consola para interactuar con el usuario con las siguientes opciones:
+  - Buscar libro por título
   - Mostrar libros registrados
   - Mostrar autores registrados
   - Mostrar autores vivos segun el año
